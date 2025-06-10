@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8DJWCSKPJY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8DJWCSKPJY');
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <title>A24 SHOP</title>
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/templatemo-hexashop.css">
+
+    <link rel="stylesheet" href="assets/css/owl-carousel.css">
+
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+    <link rel="stylesheet" href="assets/css/custom-colors.css">
+
+    <style>
+/* Dropdown menu gọn gàng */
+.nav .dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 9999;
+    min-width: 180px;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    border: none;
+}
+.nav .dropdown:hover > .dropdown-menu,
+.nav .dropdown:focus-within > .dropdown-menu {
+    display: block !important;
+}
+.nav .dropdown-menu li {
+    border-bottom: 1px solid #f2f2f2;
+}
+.nav .dropdown-menu li:last-child {
+    border-bottom: none;
+}
+.nav .dropdown-menu li a {
+    color: #FF8C00;
+    font-weight: 600;
+    padding: 10px 20px;
+    display: block;
+    font-size: 1rem;
+    white-space: nowrap;
+    background: none;
+    transition: background 0.15s, color 0.15s;
+}
+.nav .dropdown-menu li a:hover,
+.nav .dropdown-menu li a:focus {
+    background: #FF8C00;
+    color: #fff !important;
+    border-radius: 6px;
+}
+.nav .dropdown {
+    position: relative;
+}
+@media (max-width: 991px) {
+    .nav .dropdown-menu {
+        position: static !important;
+        box-shadow: none !important;
+        min-width: 100%;
+        border-radius: 0;
+    }
+    .nav .dropdown-menu li a {
+        padding: 12px 18px;
+    }
+}
+
+/* Giảm độ đậm font chữ sản phẩm */
+.down-content h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #666;
+    text-align: center;
+    margin: 15px 0 8px;
+}
+.down-content span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #FF8C00;
+    display: block; 
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1.1rem;
+}
+
+/* Màu cam cho header */
+.header-area {
+    background: #FF8C00 !important;
+    border-bottom: none !important;
+}
+.header-area .main-nav .nav > li > a,
+.header-area .main-nav .menu-trigger span {
+    color: #fff !important;
+    font-weight: 600;
+}
+.header-area .main-nav .nav > li > a.active,
+.header-area .main-nav .nav > li > a:hover {
+    color: #FF8C00 !important;
+    background: #fff !important;
+    border-radius: 4px;
+    border-bottom: none !important;
+}
+
+.pawpaw-logo-text {
+    font-weight: 800;
+    font-size: 1.3rem;
+    color: #FF8C00;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 6px #fff, 0 0 2px #fff;
+}
+    </style>
+
+  </head>
+    
+    <body>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo" style="display:flex;align-items:center;gap:8px;text-decoration:none;">
+                            <img src="assets/images/LOGOPAW.png">
+                            <span class="pawpaw-logo-text">PAWPAW</span>
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+    <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+    <li class="scroll-to-section"><a href="about_us.html">ABOUT US</a></li>
+    <li><a href="products.html">SẢN PHẨM</a></li>
+    <li class="dropdown scroll-to-section" style="position:relative;">
+        <a href="#kids" class="dropdown-toggle" style="cursor:pointer; padding-right:18px;" onclick="return false;">
+            DỊCH VỤ THÚ CƯNG <i class="fa fa-caret-down"></i>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a href="dichvuthucung.html">Spa-Grooming Cho Mèo</a></li>
+            <li><a href="spagroomingchocho.html">Spa-Grooming Cho Chó</a></li>
+            <li><a href="hotelchomeo.html">Hotel-Lưu Trú Chó Mèo</a></li>
+        </ul>
+    </li>
+    <li><a href="contact.html">CONTACT</a></li>
+                         
+                
+                        </ul>        
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="main-banner" id="top">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="left-content d-flex justify-content-center align-items-center" style="min-height: 500px; position: relative;">
+                    <div class="thumb w-100" style="position: relative; height: 500px;">
+                        <img src="assets/images/anhbanner.png" alt="" style="width: 100%; height: 500px; object-fit: cover; position: absolute; left: 0; top: 0; z-index: 1; border-radius: 0;">
+                        <div class="inner-content d-flex flex-column justify-content-center align-items-center"
+                             style="background: rgba(255,255,255,0.7); border-radius: 16px; padding: 40px 32px; box-shadow: 0 8px 32px rgba(0,0,0,0.15); max-width: 600px; width: 100%; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 2;">
+                            <h4 style="font-weight: 800; color: #FF8C00; text-shadow: 2px 2px 8px #fff, 0 0 2px #fff; font-size: 2.5rem; text-align: center;">PAW PAW</h4>
+                            <span style="font-weight: 600; color: #FF8C00; text-shadow: 2px 2px 8px #fff, 0 0 2px #fff; display: block; margin: 20px 0 30px 0; font-size: 1.3rem; text-align: center;">MỌI ĐIỀU TỐT NHẤT CHO THÚ CƯNG CỦA BẠN</span>
+                            <div class="main-border-button" style="padding-top: 15px;">
+                                <a href="products.html" style="font-weight: 600; color: #FF8C00; text-shadow: 2px 2px 8px #fff, 0 0 2px #fff;">KHÁM PHÁ SẢN PHẨM</a>
+                                <a href="contact.html" style="font-weight: 600; color: #FF8C00; text-shadow: 2px 2px 8px #fff, 0 0 2px #fff; margin-left: 12px;" class="main-border-button">Đặt Lịch Ngay</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Main Banner Area End ***** -->
+
+    <!-- ***** Men Area Starts ***** -->
+    <section class="section" id="men">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-heading">
+                        <h2>BEST SELLER</h2>
+                        <span>CÁC SẢN PHẢM ĐƯỢC QUAN TÂM NHẤT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="men-item-carousel">
+                        <div class="owl-men-item owl-carousel">
+                            <div class="item">
+                                <div class="thumb">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="sgpd-classictee.html"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="sgpd-classictee.html"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="sgpd-classictee.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="assets/images/chofood.avif" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>PATE CHO MÈO</h4>
+                                    <span>25.000Đ</span>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="sgpd-skinny-jean.html"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="sgpd-skinny-jean.html"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="sgpd-skinny-jean.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="assets/images/dogfood2.avif" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>THỨC ĂN CHO CHÓ</h4>
+                                    <span>79.000Đ</span>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="sgpd-pilot-glasses.html"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="sgpd-pilot-glasses.html"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="sgpd-pilot-glasses.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="assets/images/suabotchomeo.avif" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>SỮA BỘT CHÓ MÈO</h4>
+                                    <span>80.000Đ</span>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="assets/images/thucanchomeo.avif" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>THỨC ĂN CHÓ MÈO</h4>
+                                    <span>160.000Đ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Men Area Ends ***** -->
+
+    <!-- ***** Women Area Starts ***** -->
+    <section class="section" id="women">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-heading">
+                        <h2>OUR PET'S CHOICE</h2>
+                        <span>ALL THE BEST FOR PET</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="women-item-carousel">
+                        <div class="owl-women-item owl-carousel">
+                            <div class="item">
+                                <div class="thumb">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="assets/images/quanaochomeo.avif" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>Quần Áo Chó Mèo</h4>
+                                    <span>245.000Đ</span>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="assets/images/diabaydochoi.avif" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>ĐĨA BAY ĐỒ CHƠI</h4>
+                                    <span>125.000Đ</span>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="assets/images/quanaoama.avif" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>QUẦN ÁO CHÓ MÈO AMA</h4>
+                                    <span>289.000Đ</span>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="assets/images/dogfood2.avif" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>THỨC ĂN CHÓ</h4>
+                                    <span>89.000Đ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Women Area Ends ***** -->
+
+    <!-- ***** Explore Area Starts ***** -->
+    <!-- ***** Explore Area Ends ***** -->
+
+    <!-- ***** Social Area Starts ***** -->
+    <!-- ***** Social Area Ends ***** -->
+
+    <!-- ***** Subscribe Area Starts ***** -->
+    <div class="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="section-heading">
+                        <h2>By Subscribing To Our Newsletter You Can Get 10% Off</h2>
+                        <span>Thank you for shoppping at our store.</span>
+                    </div>
+                    <form id="subscribe" action="" method="get">
+                        <div class="row">
+                          <div class="col-lg-5">
+                            <fieldset>
+                              <input name="name" type="text" id="name" placeholder="Your Name" required="">
+                            </fieldset>
+                          </div>
+                          <div class="col-lg-5">
+                            <fieldset>
+                              <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email Address" required="">
+                            </fieldset>
+                          </div>
+                          <div class="col-lg-2">
+                            <fieldset>
+                              <button type="submit" id="form-submit" class="main-dark-button"><i class="fa fa-paper-plane"></i></button>
+                            </fieldset>
+                          </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row">
+                        <div class="col-6">
+                            <ul>
+                                <li>Store Location:<br><span>123 Đường  XX, Phường 2, Quận Phú Nhuận, TP. Hồ Chí Minh</span></li>
+                                <li>Phone:<br><span>0968 354 345</span></li>
+                                <li>Office Location:<br><span>TPHCM</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul>
+                                <li>Work Hours:<br><span>07:30 AM - 9:30 PM Daily</span></li>
+                                <li>Email:<br><span>contact@pawpawdemo.com</span></li>
+                                <li>Social Media:<br><span><a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="#">Behance</a>, <a href="#">Linkedin</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Subscribe Area Ends ***** -->
+    
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="first-item">
+                        <div class="logo">
+                            <img src="assets/images/LOGOPAW.png" alt="hexashop ecommerce templatemo">
+                        </div>
+                        <ul>
+                            <li><a href="#">123 Đường  XX, Phường 2, Quận Phú Nhuận, TP. Hồ Chí Minh</a></li>
+                            <li><a href="#">0968 354 345</a></li>
+                            <li><a href="#">contact@pawpawdemo.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Shopping &amp; Categories</h4>
+                    <ul>
+                        <li><a href="#">Thức ăn cho chó</a></li>
+                        <li><a href="#">Thức ăn cho mèo</a></li>
+                        <li><a href="#">Sữa tắm thú cưng</a></li>
+                        <li><a href="#">Cát vệ sinh cho mèo</a></li>
+                        <li><a href="#">Sữa bột chó mèo</a></li>
+                        <li><a href="#">Phụ kiện thú cưng</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">Homepage</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Help &amp; Information</h4>
+                    <ul>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">FAQ's</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="https://viettelpost.com.vn/tra-cuu-hanh-trinh-don/">Tracking ID</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-12">
+                    <div class="under-footer">
+                        <p>Copyright © 2025 PAW PAW SHOP SHOP Co., Ltd. All Rights Reserved. 
+                        <br>
+                            Trang web này chỉ phục vụ cho mục đích giáo dục. Đây không phải là một trang thương mại điện tử thật.
+                        
+                        
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/accordions.js"></script>
+    <script src="assets/js/datepicker.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    <script src="assets/js/slick.js"></script> 
+    <script src="assets/js/lightbox.js"></script> 
+    <script src="assets/js/isotope.js"></script> 
+    
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+
+        $(function() {
+            var selectedClass = "";
+            $("p").click(function(){
+            selectedClass = $(this).attr("data-rel");
+            $("#portfolio").fadeTo(50, 0.1);
+                $("#portfolio div").not("."+selectedClass).fadeOut();
+            setTimeout(function() {
+              $("."+selectedClass).fadeIn();
+              $("#portfolio").fadeTo(50, 1);
+            }, 500);
+                
+            });
+        });
+
+    </script>
+  </body>
+</html>

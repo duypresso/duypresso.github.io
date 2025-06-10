@@ -1,0 +1,71 @@
+:root {
+  --primary-orange: #ff6b35;
+  --secondary-orange: #ff914d;
+  --light-orange: #ffb088;
+  --dark-orange: #cc4e1b;
+  --accent-color: #2a2a2a;
+  --bg-light: #fff5f0;
+}
+
+body {
+  background-color: var(--bg-light);
+}
+
+.header-area {
+  background-color: var(--primary-orange);
+}
+
+.header-area .main-nav .nav li a {
+  color: white;
+}
+
+.header-area .main-nav .nav li:hover a,
+.header-area .main-nav .nav li a.active {
+  color: var(--accent-color) !important;
+}
+
+.main-banner {
+  background-color: var(--bg-light);
+}
+
+.main-border-button a:hover {
+  background-color: var(--primary-orange);
+  color: white !important;
+  border-color: var(--primary-orange) !important;
+}
+
+.section-heading h2 {
+  color: var(--primary-orange);
+}
+
+footer {
+  background-color: var(--dark-orange);
+}
+
+#form-submit {
+  background-color: var(--primary-orange);
+}
+
+#form-submit:hover {
+  background-color: var(--secondary-orange);
+}
+
+.item .down-content h4 {
+  color: var(--primary-orange);
+}
+
+.item .down-content span {
+  color: var(--dark-orange);
+}
+
+.thumb .hover-content {
+  background-color: rgba(255, 107, 53, 0.9);
+}
+
+.main-dark-button a {
+  background-color: var(--primary-orange);
+}
+
+.main-dark-button a:hover {
+  background-color: var(--secondary-orange);
+}
